@@ -2,7 +2,7 @@ require('dotenv').config();
 // console.log(process.env);
 
 const express = require('express');
-const { MongoClient } = require('mongodb');
+const { MongoClient, ObjectId } = require('mongodb');
 const cors = require('cors');
 const fs = require('fs');
 
@@ -33,7 +33,32 @@ app.get('/companies', async (req, res) => {
     } finally {
         await client.close();
     }
-})
+});
+
+app.get('/companies/:id/benefits', async (req, res) => {
+    const client = new MongoClient(uri);
+
+    try {
+        await client.connect();
+
+        const collection = client.db(dbName).collection(collectionName);
+        const companyId = req.params.id;
+        const company = await collection.findOne({ _id: new ObjectId(companyId) });
+        if (!company) {
+            return res.status(404).send({ message: 'Company not found' });
+        }
+        // filter out benefits with "NO" or "unknown" value
+        const benefits = Object.keys(company)
+            .filter((key) => key !== '_id' && key !== 'Company Name' && company[key] === 'YES');
+        
+        res.json(benefits);
+    } catch (err) {
+        console.error(err);
+        res.status(500).send('Internal Server Error');
+    } finally {
+        await client.close();
+    }
+});
 
 /** test endpoint, just to say hello */
 app.get('/api', (req, res) => {
