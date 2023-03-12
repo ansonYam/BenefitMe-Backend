@@ -1,0 +1,52 @@
+{
+    "lululemon": {
+        "Core Benefits": [
+            {"Extended Health Coverage":"Unknown"},
+            {"Mental Health Coverage": "Unknown"},
+            {"Dental Coverage":"Unknown"},
+            {"Life Insurance":"Unknown"},
+            {"Accidental Death & Dismemberment":"Unknown"},
+            {"Disability Benefits":"Unknown"}, 
+            {"Flex Credits":"Unknown"},
+            {"Employee Assistance Program":"Yes"},
+            {"Group RRSP": "Opt In"},
+            {"Pension": "Opt In"}
+        ], 
+        "Compensation": [
+            {"Living Wage Employer":"No"},
+            {"Gender Pay Equality": "Yes"},
+            {"Profit Share":"Unknown"},
+            {"Vacation": "Unknown"}
+        ], 
+        "Perks": [
+            {"Employee Discount":"Unknown"},
+            {"Tuition Reimbursement":"No"},
+            {"Unique":"Monthly allocation of dollars to support big and small health goals"}
+        ] 
+    },
+    "H&M": {
+        "Core Benefits": [
+            {"Extended Health Coverage":"Yes"},
+            {"Mental Health Coverage": "$1000 per year"},
+            {"Dental Coverage":"Yes"},
+            {"Life Insurance":"Yes"},
+            {"Accidental Death & Dismemberment":"Yes"},
+            {"Disability Benefits":"Yes"}, 
+            {"Flex Credits":"Yes"},
+            {"Employee Assistance Program":"Yes"},
+            {"Group RRSP": "Yes, with employer matching up to 4%"},
+            {"Pension": "Yes, after 5 years employment"}
+            ], 
+        "Compensation": [
+            {"Living Wage Employer":"No"},
+            {"Gender Pay Equality": "Unknown"},
+            {"Profit Share":"Unknown"},
+            {"Vacation": "Starts at 3 weeks"}
+        ], 
+        "Perks": [
+            {"Employee Discount":"25% off employee discount at H&M and H&M Brands worldwide"},
+            {"Tuition Reimbursement":"$5000 annually"},
+            {"Unique":"Employees are elible for paid time off on their birthday"}
+        ] 
+    }
+}

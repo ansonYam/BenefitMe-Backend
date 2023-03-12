@@ -1,0 +1,48 @@
+{
+    "Vancity": {
+        "Core Benefits": [
+            {"Extended Health Coverage":"Yes"},
+            {"Mental Health Coverage": "Unknown"},
+            {"Dental Coverage":"Yes"},
+            {"Life Insurance":"Yes"},
+            {"Accidental Death & Dismemberment":"Yes"},
+            {"Disability Benefits":"Yes"}, 
+            {"Flex Credits":"Yes"},
+            {"Employee Assistance Program":"Yes"},
+            {"Group RRSP": "Opt In"},
+            {"Pension": "Opt In"}
+        ], 
+        "Compensation": [
+            {"Living Wage Employer":"Yes"},
+            {"Profit Share":"Yes"},
+            {"Vacation": "Starts at 3-4 weeks per year depending on role"}
+        ], 
+        "Perks": [
+            {"Tuition subsidy":"Up to $2400 per year"},
+            {"Annual flu shot":"Free"},
+            {"Unique":"Banking services at reduced rates, VISA cards with no annual fee, preferred rates on foreign currency"}
+        ] 
+    },
+    "Coast Capital": {
+        "Core Benefits": [
+            {"Extended Health Coverage":"Yes"},
+            {"Mental Health Coverage": "Unknown"},
+            {"Dental Coverage":"Yes"},
+            {"Life Insurance":"Yes"},
+            {"Accidental Death & Dismemberment":"Yes"},
+            {"Disability Benefits":"Yes"}, 
+            {"Flex Credits":"Yes"},
+            {"Employee Assistance Program":"Yes"},
+            {"Group RRSP": "Opt In"},
+            {"Pension": "Opt In"}
+        ], 
+        "Compensation": [
+            {"Living Wage Employer":"No"},
+            {"Profit Share":"Unknown"},
+            {"Vacation": "Unknown"}
+        ], 
+        "Perks": [
+            {"Unique":"Banking and loan benefits"}
+        ] 
+    }
+}
